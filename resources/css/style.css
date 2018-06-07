@@ -49,3 +49,8 @@ a {
 .logo span {
   color: MediumAquamarine;
 }
+
+.main-content {
+  display: flex;
+  boder: thin solid black;
+}
