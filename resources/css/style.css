@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  border: thin solid black;
 }
 
 header {
@@ -50,7 +51,31 @@ a {
   color: MediumAquamarine;
 }
 
-.main-content {
+/* Main body */
+
+.content {
   display: flex;
   boder: thin solid black;
+  padding-top: 116px;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.lead-image {
+  background-image: url("../images/img-story-main.png");
+}
+
+.column {
+  display: flex;
 }
